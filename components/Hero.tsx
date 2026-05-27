@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
       {/* Modern, Clean Luxury Condominium Background with smooth slow pan animation */}
       <div className="absolute inset-0 w-full h-full overflow-hidden">
         <img 
-            src="/src/assets/images/modern_clean_condo_1779843405268.png" 
+            src="/images/modern_clean_condo_1779843405268.png" 
             alt="SDA Premium Serviced Modern Condominium Building" 
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover scale-110 animate-slow-pan brightness-[0.88] contrast-[1.05]"

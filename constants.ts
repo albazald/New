@@ -15,11 +15,11 @@ export const PRODUCTS: Product[] = [
     longDescription: 'Prepare your property for the main summer season with our acclaimed 4-Week restoration plan. This all-inclusive premium sequence aggregates all independent restorative operations—including high-rise facade window washing, subterranean garage chemical flushing, lobby high-dusting, carpets steam-extraction, rubbish chutes chemical purge, and hard floor stripping/rewaxing—into a highly choreographed, disruption-free master plan.',
     price: 9800,
     category: 'Packages',
-    imageUrl: '/src/assets/images/sda_facilities_sanitize_1779840656309.png',
+    imageUrl: '/images/sda_facilities_sanitize_1779840656309.png',
     gallery: [
-      '/src/assets/images/sda_facilities_sanitize_1779840656309.png',
-      '/src/assets/images/sda_exterior_wash_1779840623753.png',
-      '/src/assets/images/sda_floor_care_1779840641574.png'
+      '/images/sda_facilities_sanitize_1779840656309.png',
+      '/images/sda_exterior_wash_1779840623753.png',
+      '/images/sda_floor_care_1779840641574.png'
     ],
     features: ['Week 1: Hardscape & Exterior Wash', 'Week 2: Amenities & Disinfection', 'Week 3: Deep Indoor Fabric Sweeps', 'Week 4: Technical Upkeeps & Waxing', 'All-Inclusive Flat-Rate Bundle Pricing']
   },
@@ -31,10 +31,10 @@ export const PRODUCTS: Product[] = [
     longDescription: 'Establish flawless standards for your luxury property or condominium complex. Our Annual Premium Upkeep ensures continuous operational excellence. It guarantees the comprehensive 4-Week Spring Refresh, followed by bi-monthly mechanical scrubs and steam extractions in lobbies, quarterly rubbish chute deodorizing, semi-annual parking lot sweeps, HVAC filter upgrades, pre-winter structural seals, and dedicated priority emergency response dispatch 24 hours a day.',
     price: 21600,
     category: 'Packages',
-    imageUrl: '/src/assets/images/sda_technical_upkeep_1779840670329.png',
+    imageUrl: '/images/sda_technical_upkeep_1779840670329.png',
     gallery: [
-      '/src/assets/images/sda_technical_upkeep_1779840670329.png',
-      '/src/assets/images/sda_floor_care_1779840641574.png'
+      '/images/sda_technical_upkeep_1779840670329.png',
+      '/images/sda_floor_care_1779840641574.png'
     ],
     features: ['Includes Full 4-Week Spring Refresh', 'Bi-Monthly Lobby & Corridor Steaming', 'Pre-Winter Insulation & Pipe Seals', '24/7 Support Line & Priority Dispatch', 'Quarterly Rubbish & Drain Chemical Purge', 'Semi-Annual Parking Lot Sweeping', 'Predictive Asset Integrity Audits']
   },
@@ -46,9 +46,9 @@ export const PRODUCTS: Product[] = [
     longDescription: 'Ensure your condominium or commercial property transitions seamlessly into the warm season with exterior renewal. This high-impact technical service package tackles high-altitude window cleaning across all facades, thorough leaf and debris removal around perimeters and gardens, and complete high-pressure garage flushing to clean out destructive winter salt deposits, dirt, and heavy engine oil.',
     price: 3450,
     category: 'Exterior',
-    imageUrl: '/src/assets/images/sda_exterior_wash_1779840623753.png',
+    imageUrl: '/images/sda_exterior_wash_1779840623753.png',
     gallery: [
-      '/src/assets/images/sda_exterior_wash_1779840623753.png'
+      '/images/sda_exterior_wash_1779840623753.png'
     ],
     features: ['High-rise Facade Window Cleaning', 'Detailed Garden & Leaf Removal', 'Subterranean Garage Powerwashing']
   },
@@ -60,9 +60,9 @@ export const PRODUCTS: Product[] = [
     longDescription: 'Common area floors take the brunt of winter weathering. This package restores depth, safety, and luster to high-traffic zones. We handle deep mechanical floor scrubbing, sanitizing wash, high-extraction hot carpet steaming, and a multi-coat stripping, waxing, and mechanical burnishing to give hard surface floors a pristine, anti-slip glaze that lasts. ',
     price: 2800,
     category: 'Floors',
-    imageUrl: '/src/assets/images/sda_floor_care_1779840641574.png',
+    imageUrl: '/images/sda_floor_care_1779840641574.png',
     gallery: [
-      '/src/assets/images/sda_floor_care_1779840641574.png'
+      '/images/sda_floor_care_1779840641574.png'
     ],
     features: ['Deep Carpet Steam Extraction', 'Mechanical Floor Deep Scrub', 'Multi-Coat Strip, Seal & Wax']
   },
@@ -74,9 +74,9 @@ export const PRODUCTS: Product[] = [
     longDescription: 'Shared premium amenities require specialized sanitation routines. Our certified team performs thorough mechanical scrubbing of locker rooms and changerooms, pool deck tile scale removal, high-altitude dust eradication on lobby light fixtures, ducts, and chandeliers, and complete pressurized steam deodorization and chemical flushing of multi-floor rubbish garbage chutes.',
     price: 1950,
     category: 'Specialized',
-    imageUrl: '/src/assets/images/sda_facilities_sanitize_1779840656309.png',
+    imageUrl: '/images/sda_facilities_sanitize_1779840656309.png',
     gallery: [
-      '/src/assets/images/sda_facilities_sanitize_1779840656309.png'
+      '/images/sda_facilities_sanitize_1779840656309.png'
     ],
     features: ['Changeroom Chemical Scrub', 'Lobby High-Altitude Dusting', 'Rubbish Chute Vapor Deodorizing']
   },
@@ -88,9 +88,9 @@ export const PRODUCTS: Product[] = [
     longDescription: 'Maintain the physical value and comfort of individual residential suites and structural boundaries. This package tackles balcony steam washing to remove unsightly winter soot and bird debris, storage locker clearing for abandoned contents, general commercial drywall patching, professional wall paint touch-ups inside corridors, and key checks on utility and plumbing fittings.',
     price: 3200,
     category: 'Technical',
-    imageUrl: '/src/assets/images/sda_technical_upkeep_1779840670329.png',
+    imageUrl: '/images/sda_technical_upkeep_1779840670329.png',
     gallery: [
-      '/src/assets/images/sda_technical_upkeep_1779840670329.png'
+      '/images/sda_technical_upkeep_1779840670329.png'
     ],
     features: ['Balcony High-Pressure Washdown', 'Corridor Drywall & Paint Matching', 'Locker Room Content Sorting', 'Certified Upkeep Checks']
   }
@@ -102,7 +102,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     title: "Week 1: Exterior Restoration Campaign",
     date: "Roadmap: Phase 1",
     excerpt: "We start strong with high-power garage flushing, structural facade glass washing, and garden leaf cleanouts.",
-    image: "/src/assets/images/sda_exterior_wash_1779840623753.png",
+    image: "/images/sda_exterior_wash_1779840623753.png",
     content: React.createElement(React.Fragment, null,
       React.createElement("p", { className: "mb-6 first-letter:text-5xl first-letter:font-serif first-letter:mr-3 first-letter:float-left text-[#5D5A53]" },
         "Winter leaves behind more than cold memories; it builds up a layer of corrosive grit that undermines brick, stone, and subterranean structures. That's why Week 1 focuses on building outer defenses."
@@ -123,7 +123,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     title: "Week 2: Facilities & Amenities Optimization",
     date: "Roadmap: Phase 2",
     excerpt: "Refreshing active community spaces: thorough pool scrubbing, locker room disinfections, and odor neutralization.",
-    image: "/src/assets/images/sda_facilities_sanitize_1779840656309.png",
+    image: "/images/sda_facilities_sanitize_1779840656309.png",
     content: React.createElement(React.Fragment, null,
       React.createElement("p", { className: "mb-6 text-[#5D5A53]" },
         "Active amenities like gym changerooms and swimming pools are high-moisture centers where mold and biological film easily accumulate during winter."
@@ -147,7 +147,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     title: "Week 3: Deep Interior Structural Cleaning",
     date: "Roadmap: Phase 3",
     excerpt: "Removing hidden dust from architecture, extracting fibers from lobby carpets, and clearing storage blocks.",
-    image: "/src/assets/images/sda_floor_care_1779840641574.png",
+    image: "/images/sda_floor_care_1779840641574.png",
     content: React.createElement(React.Fragment, null,
       React.createElement("p", { className: "mb-6 text-[#5D5A53]" },
         "Indoor air quality is defined by what settles out of reach. Hallway ceilings, vents, light fixtures, and expansive lobby chandeliers accumulate layers of fine gray particles over the winter heating months."
@@ -165,7 +165,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     title: "Week 4: Final Finishes & Technical Maintenance",
     date: "Roadmap: Phase 4",
     excerpt: "Corridor drywall styling, protective wax applications, water flow compliance, and electrical syncs.",
-    image: "/src/assets/images/sda_technical_upkeep_1779840670329.png",
+    image: "/images/sda_technical_upkeep_1779840670329.png",
     content: React.createElement(React.Fragment, null,
       React.createElement("p", { className: "mb-6 text-[#5D5A53]" },
         "The final week is about polish, safety compliance, and aesthetic refinement. Minor scratches and drywall dings in corridors are meticulously patched, sanded, and painted over with perfectly color-matched coatings."

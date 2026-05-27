@@ -4,7 +4,7 @@ import { Product } from '../types';
 const SPRING_REFRESH_SCOPE = [
   {
     area: 'Exterior & Hardscape',
-    image: '/src/assets/images/sda_exterior_wash_1779840623753.png',
+    image: '/images/sda_exterior_wash_1779840623753.png',
     services: [
       'Windows Cleaning (Heights/High-rise)',
       'Landscaping & Leaf Removal',
@@ -13,7 +13,7 @@ const SPRING_REFRESH_SCOPE = [
   },
   {
     area: 'Floors & Common Areas',
-    image: '/src/assets/images/sda_floor_care_1779840641574.png',
+    image: '/images/sda_floor_care_1779840641574.png',
     services: [
       'Carpet Cleaning (Deep extraction)',
       'Floor Scrubbing (Mechanical)',
@@ -23,7 +23,7 @@ const SPRING_REFRESH_SCOPE = [
   },
   {
     area: 'Specialized Facilities',
-    image: '/src/assets/images/sda_facilities_sanitize_1779840656309.png',
+    image: '/images/sda_facilities_sanitize_1779840656309.png',
     services: [
       'Changerooms (Deep scrubbing & disinfection)',
       'Pool Areas (Deck scrubbing & tile cleaning)',
@@ -33,7 +33,7 @@ const SPRING_REFRESH_SCOPE = [
   },
   {
     area: 'Units & Technical',
-    image: '/src/assets/images/sda_technical_upkeep_1779840670329.png',
+    image: '/images/sda_technical_upkeep_1779840670329.png',
     services: [
       'Unit & Balcony Cleaning',
       'Content Removal (Lockers/Garages)',
@@ -138,7 +138,7 @@ const Programs: React.FC<ProgramsProps> = ({ onAddToCart }) => {
       description: 'Comprehensive 4-week program for post-winter building restoration.',
       price: 2500, // Example placeholder price
       category: 'Packages',
-      imageUrl: '/src/assets/images/sda_exterior_wash_1779840623753.png',
+      imageUrl: '/images/sda_exterior_wash_1779840623753.png',
       features: ['Exterior Restoration', 'Facilities & Amenities', 'Deep Interior Cleaning', 'Final Finishes']
     });
   };
@@ -151,7 +151,7 @@ const Programs: React.FC<ProgramsProps> = ({ onAddToCart }) => {
       description: 'A strategic partnership to preserve the structural integrity and market value of your property.',
       price: 12000, // Example placeholder price
       category: 'Packages',
-      imageUrl: '/src/assets/images/modern_clean_condo_1779843405268.png',
+      imageUrl: '/images/modern_clean_condo_1779843405268.png',
       features: ['Budget Predictability', 'Strategic Sequencing', 'Risk Mitigation']
     });
   };
